@@ -372,7 +372,8 @@ const personalProject = {
       descriptions: [
         "Nori, a product of my academic journey at EPFL (École Polytechnique Fédérale de Lausanne), Switzerland, stands as a testament to the fruits of diligent exploration and learning. This CPU-based ray tracing engine embodies the culmination of my efforts to grasp the intricacies of computer graphics and render scenes with increasing realism and finesse.",
         "Over the course of the semester, we were tasked with numerous assignments aimed at implementing key features essential to a state-of-the-art rendering engine. These assignments provided practical opportunities to delve into the intricacies of computer graphics, allowing us to gain hands-on experience in developing functionalities commonly found in professional-grade software. Through these exercises, we not only honed our technical skills but also deepened our understanding of the foundational principles underpinning advanced rendering techniques.",
-        "At some point for the final project, we had to implement our own feature without the help of the teacher or directive. At the end of the semester, a group a renowed searcher arround the world examined our result in several category like the difficulty of the implementation, the originality of the scene, etc."
+        "At some point for the final project, we had to implement our own feature without the help of the teacher or directive. At the end of the semester, a group a renowed searcher arround the world examined our result in several category like the difficulty of the implementation, the originality of the scene, etc.",
+        "Note: While some pictures may appear low quality due to constraints on sampling at higher resolutions, this is necessary to mitigate the significant time and resource consumption, even with multi-threaded rendering, particularly for complex scenes."
       ],
       features: [
         {
@@ -402,12 +403,30 @@ const personalProject = {
       descriptions: [
         "Olympus Forge represents my dive into game engine development, a project born out of a desire to understand every aspect of game creation. It's a simple yet practical engine aimed at rendering graphics and implementing logic for games, with the ultimate goal of participating in game development competitions like Ludum Dare.",
         "Olympus Forge is written in C++ and supports both Windows and Linux platforms. In my development journey, I strive to minimize dependencies, opting instead to implement core functionalities myself to deepen my understanding of the engine. Currently, it supports a range of low-level features",
+        "Our primary objective is to ensure an intuitive and developer-friendly API within our game engine. From window creation to framebuffer generation, every aspect is meticulously abstracted, offering seamless platform independence. With this design philosophy, transitioning between graphics APIs such as OpenGL and DirectX is effortless, requiring minimal modifications to the codebase. Our commitment to simplicity and versatility empowers developers to focus on their creative vision without the burden of platform-specific intricacies."
       ],
       features: [
         {
           desc: "3D Model rendering in .obj file",
           url: require("./assets/images/3DModel.png"),
+        },
+        {
+          desc: "Framebuffers (example with a depth buffer",
+          url: require("./assets/images/framebuffer.png"),
+        },
+        {
+          desc: "Entity Component System",
+          url: "",
+        },
+        {
+          desc: "OpenGl Abstraction",
+          url: ""
+        },
+        {
+          desc: "Simple Editor (WIP)",
+          url: ""
         }
+
       ],
       result: {
         desc: "",
