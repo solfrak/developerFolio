@@ -20,26 +20,21 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Samuel Laporte",
+  title: "Hi all, I'm Samuel",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    ""
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1HjnjVCHLsxSw9Lj8gPxtoYB5LPIqjqRD/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  linkedin: "https://www.linkedin.com/in/samuel-laporte-034598140/",
+  gmail: "laporte.samuel2000@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +44,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Specializing in low-level software engineering, particularly in game engines and real-time data applications, leveraging advanced threading techniques and low-level optimizations.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Full-Stack application for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("🔧 Drive the implementation of DevOps practices to streamline the development, deployment, and maintenance of your applications."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "🎮 Dive into the captivating world of game development, exploring its intricacies and innovations."
     )
   ],
 
@@ -65,57 +60,33 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Rust",
+      fontAwesomeClassname: "fab fa-rust"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Flutter",
+      fontAwesomeClassname: "fab fa-flutter"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-azure"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +97,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Polytehcnique Montreal",
+      logo: require("./assets/images/PolytechniqueLogo.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "January 2020 - May 2024",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Game Architecture",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "EPFL",
+      logo: require("./assets/images/EPFLLogo.jpg"),
+      subHeader: "Student Exchange",
+      duration: "February 2023 - June 2023",
+      desc: "This school ranks among the top 11 universities worldwide for its computer science program, according to the QS World University Rankings.",
+      descBullets: ["Advanced Computer Graphics", "Parallelism and Concurrency"]
     }
   ]
 };
@@ -150,7 +120,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -165,7 +135,7 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank:  false// Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -174,30 +144,42 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "DevOps Engineer Student",
+      company: "CAE",
+      companylogo: require("./assets/images/CAELogo.png"),
+      date: "Jan 2024 - May 2024",
+      desc: "Linux compilation support project",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Update the code base for their build tool in order to support Linux for building software",
+        "Modernise the application using new technologies",
+        "Presented our group's work to over 100 individuals and provided suggestions for enhancing the application's future development",
+        "Implemented the build pipeline in Azure DevOps"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full-Stack Developer Intern",
+      company: "Uzinakod",
+      companylogo: require("./assets/images/UzinakodLogo.jpg"),
+      date: "May 2022 - August 2022",
+      desc: "",
+      descBullets: [
+        "Developed a web app using Angular and .NET",
+        "Automated some process during the development to ease the work of my peer",
+        "Introduced and integrated DevContainer with Docker into our workflow, streamlining our workspace setup and effectively mitigating the \"it works on my machine\" problem"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Analyst Developer Intern",
+      company: "Bridgestone",
+      companylogo: require("./assets/images/BridgestoneLogo.png"),
+      date: "May 2021 - August 2021",
+      desc: "",
+      descBullets: [
+        "Developed a web application for streaming the security cameras of the factory",
+        "Analysed and presented to the directors and supervisor various software on the market for Temporal Data Collection",
+        "Prototyped a defect detection software using computer vision (OpenCV)"
+      ]
+    },
   ]
 };
 
@@ -206,7 +188,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -239,7 +221,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +282,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +306,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +325,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +338,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,25 +347,77 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "514-572-7783",
+  email_address: "laporte.samuel2000@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const personalProject = {
+  projects : [
+    {
+      title: "Nori Engine",
+      descriptions: [
+        "Nori, a product of my academic journey at EPFL (École Polytechnique Fédérale de Lausanne), Switzerland, stands as a testament to the fruits of diligent exploration and learning. This CPU-based ray tracing engine embodies the culmination of my efforts to grasp the intricacies of computer graphics and render scenes with increasing realism and finesse.",
+        "Over the course of the semester, we were tasked with numerous assignments aimed at implementing key features essential to a state-of-the-art rendering engine. These assignments provided practical opportunities to delve into the intricacies of computer graphics, allowing us to gain hands-on experience in developing functionalities commonly found in professional-grade software. Through these exercises, we not only honed our technical skills but also deepened our understanding of the foundational principles underpinning advanced rendering techniques.",
+        "At some point for the final project, we had to implement our own feature without the help of the teacher or directive. At the end of the semester, a group a renowed searcher arround the world examined our result in several category like the difficulty of the implementation, the originality of the scene, etc."
+      ],
+      features: [
+        {
+          desc: "Simple point light",
+          url: require("./assets/images/ajax-simple.png"),
+        },
+        {
+          desc: "Dielectric material",
+          url: require("./assets/images/table_ems.png"),
+        },
+        {
+          desc: "Normal Mapping",
+          url: require("./assets/images/normal_mapping.png"),
+        },
+        {
+          desc: "Environment Lighting",
+          url: require("./assets/images/env_light.png")
+        }
+      ],
+      result: {
+        desc: "The final result of my project",
+        url: require("./assets/images/result.png")
+      }
+    },
+    {
+      title: "Olympus Forge",
+      descriptions: [
+        "Olympus Forge represents my dive into game engine development, a project born out of a desire to understand every aspect of game creation. It's a simple yet practical engine aimed at rendering graphics and implementing logic for games, with the ultimate goal of participating in game development competitions like Ludum Dare.",
+        "Olympus Forge is written in C++ and supports both Windows and Linux platforms. In my development journey, I strive to minimize dependencies, opting instead to implement core functionalities myself to deepen my understanding of the engine. Currently, it supports a range of low-level features",
+      ],
+      features: [
+        {
+          desc: "3D Model rendering in .obj file",
+          url: require("./assets/images/3DModel.png"),
+        }
+      ],
+      result: {
+        desc: "",
+        url: ""
+      }
+    },
+  ]
+}
+
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -403,5 +437,6 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  personalProject
 };
