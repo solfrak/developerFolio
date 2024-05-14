@@ -76,14 +76,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-angular"
     },
     {
-      skillName: "Flutter",
-      fontAwesomeClassname: "fab fa-flutter"
-    },
-    {
-      skillName: "Azure",
-      fontAwesomeClassname: "fab fa-azure"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -97,9 +89,9 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Polytehcnique Montreal",
+      schoolName: "Polytechnique Montreal",
       logo: require("./assets/images/PolytechniqueLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Bachelor of Software Engineering",
       duration: "January 2020 - May 2024",
       desc: "",
       descBullets: [
@@ -111,7 +103,7 @@ const educationInfo = {
       logo: require("./assets/images/EPFLLogo.jpg"),
       subHeader: "Student Exchange",
       duration: "February 2023 - June 2023",
-      desc: "This school ranks among the top 11 universities worldwide for its computer science program, according to the QS World University Rankings.",
+      desc: "Prestigious University where I had the chance to work with renowned searcher from NVIDIA and Intel Graphic",
       descBullets: ["Advanced Computer Graphics", "Parallelism and Concurrency"]
     }
   ]
@@ -403,7 +395,7 @@ const personalProject = {
       descriptions: [
         "Olympus Forge represents my dive into game engine development, a project born out of a desire to understand every aspect of game creation. It's a simple yet practical engine aimed at rendering graphics and implementing logic for games, with the ultimate goal of participating in game development competitions like Ludum Dare.",
         "Olympus Forge is written in C++ and supports both Windows and Linux platforms. In my development journey, I strive to minimize dependencies, opting instead to implement core functionalities myself to deepen my understanding of the engine. Currently, it supports a range of low-level features",
-        "Our primary objective is to ensure an intuitive and developer-friendly API within our game engine. From window creation to framebuffer generation, every aspect is meticulously abstracted, offering seamless platform independence. With this design philosophy, transitioning between graphics APIs such as OpenGL and DirectX is effortless, requiring minimal modifications to the codebase. Our commitment to simplicity and versatility empowers developers to focus on their creative vision without the burden of platform-specific intricacies."
+        "My primary objective is to ensure an intuitive and developer-friendly API within my game engine. From window creation to framebuffer generation, every aspect is meticulously abstracted, offering seamless platform independence. With this design philosophy, transitioning between graphics APIs such as OpenGL and DirectX is effortless, requiring minimal modifications to the codebase. Our commitment to simplicity and versatility empowers developers to focus on their creative vision without the burden of platform-specific intricacies."
       ],
       features: [
         {
@@ -411,7 +403,7 @@ const personalProject = {
           url: require("./assets/images/3DModel.png"),
         },
         {
-          desc: "Framebuffers (example with a depth buffer",
+          desc: "Framebuffers (example with a depth buffer)",
           url: require("./assets/images/framebuffer.png"),
         },
         {
@@ -419,7 +411,7 @@ const personalProject = {
           url: "",
         },
         {
-          desc: "OpenGl Abstraction",
+          desc: "OpenGL Abstraction",
           url: ""
         },
         {
